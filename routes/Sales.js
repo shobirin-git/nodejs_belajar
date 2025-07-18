@@ -1,3 +1,12 @@
+/**
+ * @swagger
+ * /sales/salesorder:
+ *   get:
+ *     summary: Returns a sample Sales Order message
+ *     responses:
+ *       200:
+ *         description: A successful response
+ */
 const express = require("express");
 const router = express.Router();
 const { executeQuery } = require("../db.js");
